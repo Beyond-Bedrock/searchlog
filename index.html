@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: https://ogp.me/ns#">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Search and browse articles with advanced filtering options">
+    <meta name="author" content="SearchLog">
+    <meta name="keywords" content="search, articles, blog, content, filter">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="favico.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favico.ico" type="image/x-icon">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://searchlog.beyondbedrock.org/">
+    <meta property="og:title" content="SearchLog - Minecraft changelog search tool">
+    <meta property="og:description" content="Search in the Minecraft changelog articles across all versions.">
+    <meta property="og:image" content="https://searchlog.beyondbedrock.org/preview.png">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://searchlog.beyondbedrock.org/">
+    <meta name="twitter:title" content="SearchLog - Minecraft changeLog search tool">
+    <meta name="twitter:description" content="Search in the Minecraft changelog articles across all versions.">
+    <meta name="twitter:image" content="https://searchlog.beyondbedrock.org/preview.png">
+    
+    <title>SearchLog Search</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6790880772028234"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>SearchLog</h1>
+            <div class="search-container">
+                <div class="search-bar">
+                    <i class="fas fa-search search-icon"></i>
+                    <input type="text" id="searchInput" placeholder="Search articles..." autofocus>
+                    <button id="searchButton" aria-label="Search">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+                <div class="sort-options">
+                    <i class="fas fa-sort-amount-down"></i>
+                    <select id="sortBy">
+                        <option value="newest"><i class="fas fa-arrow-up"></i> Newest</option>
+                        <option value="oldest"><i class="fas fa-arrow-down"></i> Oldest</option>
+                        <option value="recentlyUpdated"><i class="fas fa-sync"></i> Updated</option>
+                        <option value="recentlyEdited"><i class="fas fa-edit"></i> Edited</option>
+                    </select>
+                </div>
+            </div>
+            <div class="filter-options">
+                <label class="filter-checkbox">
+                    <input type="checkbox" id="excludePreview">
+                    <span class="checkmark"></span>
+                    Exclude Preview
+                </label>
+                <label class="filter-checkbox">
+                    <input type="checkbox" id="excludeJava">
+                    <span class="checkmark"></span>
+                    Exclude Java
+                </label>
+                <label class="filter-checkbox">
+                    <input type="checkbox" id="excludeBedrock">
+                    <span class="checkmark"></span>
+                    Exclude Bedrock
+                </label>
+            </div>
+            <p id="resultCount">0 articles found</p>
+        </header>
+        <div id="results"></div>
+        
+        <main>
+            <div id="loading">Loading articles...</div>
+            <div id="results"></div>
+        </main>
+    </div>
+
+    <script src="app.js" type="module"></script>
+</body>
+</html>
