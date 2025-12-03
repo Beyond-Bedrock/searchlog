@@ -1,5 +1,35 @@
 [
   {
+    "id": 41466420931853,
+    "url": "https://minecraftfeedback.zendesk.com/api/v2/help_center/en-us/articles/41466420931853.json",
+    "html_url": "https://feedback.minecraft.net/hc/en-us/articles/41466420931853-Minecraft-Java-Edition-1-21-11-Pre-Release-3",
+    "author_id": 28236019205901,
+    "comments_disabled": true,
+    "draft": false,
+    "promoted": false,
+    "position": 0,
+    "vote_sum": 0,
+    "vote_count": 0,
+    "section_id": 360002267532,
+    "created_at": "2025-11-27T09:07:26Z",
+    "updated_at": "2025-11-27T09:07:30Z",
+    "name": "Minecraft Java Edition - 1.21.11 Pre-Release 3",
+    "title": "Minecraft Java Edition - 1.21.11 Pre-Release 3",
+    "source_locale": "en-us",
+    "locale": "en-us",
+    "outdated": false,
+    "outdated_locales": [],
+    "edited_at": "2025-11-27T09:07:30Z",
+    "user_segment_id": null,
+    "permission_group_id": 705672,
+    "content_tag_ids": [],
+    "label_names": [
+      "Java Edition"
+    ],
+    "body": "<p>We'll kick the week off with a third pre-release for the Mounts of Mayhem drop. This pre-release includes bug fixes and spear weapon tweaks.</p><p>Happy mining!</p><h2 id=\"h_01KB28WCBHRPZBPGCZWGZHV9Z8\">New Features</h2><h3 id=\"h_01KB28WCBH4XY4FHVSCYEJ53M7\">Spear Weapon</h3><ul>\n<li data-list-item-id=\"eccc115ceb3e84497486a8e3e4e929ccc\">While charging, the Spear hit animation and sound now play only after the previous hit animation has fully completed</li>\n<li data-list-item-id=\"e3302cfde1ee0cab1c5dce638c44f93c4\">While charging in first person, the Spear head now gradually rotates to a fully vertical position over time, matching the behavior in third person</li>\n</ul><h2 id=\"h_01KB28WCBK2JJ52B784DV150V8\">Changes</h2><ul>\n<li data-list-item-id=\"e7b8c2eb09a8c9eaa40af877f0b920f18\">The \"See-Through Leaves\" video setting is now turned off on the \"Fast\" graphics preset</li>\n<li data-list-item-id=\"ee31a1c73cd26ad54d4777601b62b724a\">Tamed horses no longer run into cacti or sweet berry bushes</li>\n</ul><h2 id=\"h_01KB28WCBM203TPPCVP1QRZV68\">Fixed bugs in 1.21.11 Pre-Release 3</h2><ul>\n<li data-list-item-id=\"e43f48e5ade4644c0f707cee3719f796b\">\n<a href=\"https://bugs.mojang.com/browse/MC-302900\">MC-302900</a> - Spears' reach overrides the player's entity interaction range</li>\n<li data-list-item-id=\"e4fff4cb61e10e3edf8ae2c9c07f4b914\">\n<a href=\"https://bugs.mojang.com/browse/MC-303036\">MC-303036</a> - Zombie nautiluses with a negative age possess a hitbox the size of a baby nautilus</li>\n<li data-list-item-id=\"ea8ba4efed7271e80bd4cc08c76cbc659\">\n<a href=\"https://bugs.mojang.com/browse/MC-303709\">MC-303709</a> - Dumping dynamic textures with large textures makes the game crash</li>\n<li data-list-item-id=\"ef9d1490414c3d8808b03e628d835cf99\">\n<a href=\"https://bugs.mojang.com/browse/MC-304045\">MC-304045</a> - Spear hit sounds play the normal hit sounds</li>\n<li data-list-item-id=\"e6323b46f3e6f31886e4471a08ed67061\">\n<a href=\"https://bugs.mojang.com/browse/MC-304362\">MC-304362</a> - RGSS breaks permanently when toggling hardware anisotropic filtering</li>\n<li data-list-item-id=\"eff421a1463a669996765fb2b8414283e\">\n<a href=\"https://bugs.mojang.com/browse/MC-304363\">MC-304363</a> - Copper golem statues render at the wrong position in shelves when reloading resource packs</li>\n<li data-list-item-id=\"efbb43717a1801f3aff9aa65855eeecf9\">\n<a href=\"https://bugs.mojang.com/browse/MC-304407\">MC-304407</a> - Charge attacks are impossible when looking at a mob that's between 3 and 4.5 blocks away</li>\n<li data-list-item-id=\"e8f84098af03babccb7574c6f2618109d\">\n<a href=\"https://bugs.mojang.com/browse/MC-304440\">MC-304440</a> - The mouse cursor changes to the pointing hand shape when hovering over inventory slots in the crafter UI</li>\n<li data-list-item-id=\"e1516ade52b1cd691e2e24610ea99e495\">\n<a href=\"https://bugs.mojang.com/browse/MC-304441\">MC-304441</a> - The mouse cursor changes to the pointing hand shape when hovering over the creative inventory scroll bar's bounds even if it's invisible or inactive</li>\n<li data-list-item-id=\"e8a73b6b885ef1d9bad5a593d3e0e2cd6\">\n<a href=\"https://bugs.mojang.com/browse/MC-304452\">MC-304452</a> - Non-see-through leaves in Programmer Art still look abnormal</li>\n</ul><h2 id=\"h_01KB28WCBVP7H58E997TG6YXCJ\">Get the Pre-Release</h2><p>Pre-Releases are available for Minecraft: Java Edition. To install the Pre-Release, open up the <a href=\"https://www.minecraft.net/content/minecraft-net/language-masters/download\">Minecraft Launcher</a> and enable snapshots in the \"Installations\" tab.</p><p><strong>Testing versions can corrupt your world, so please backup and/or run them in a different folder from your main worlds.</strong></p><p>Cross-platform server jar:</p><ul><li data-list-item-id=\"e8127f42631568f222930b2d00b32b1bd\"><a href=\"https://piston-data.mojang.com/v1/objects/51c894709733663dd6e20edd7fa254b904402cab/server.jar\">Minecraft server jar</a></li></ul><p>As we are <a href=\"https://www.minecraft.net/en-us/article/removing-obfuscation-in-java-edition\">preparing to remove obfuscation from Java Edition</a>, you can also get a non-obfuscated experimental version of this snapshot using the Minecraft Launcher:</p><ul>\n<li data-list-item-id=\"e81d69cf8336743acd81ea9321ed64969\"><a href=\"https://piston-data.mojang.com/v1/objects/7717a481468cc33d2414d82ee9c0450f56264db0/1_21_11-pre3_unobfuscated.zip\">Download this zip file</a></li>\n<li data-list-item-id=\"e855589a4ca442314e66b467abc1eb2a7\">Unpack the folder into your \"versions\" folder of your local Minecraft application data folder</li>\n<li data-list-item-id=\"e2c59b24966ed61b51d073e8832b61654\">Start (or restart) the Launcher</li>\n<li data-list-item-id=\"e94cfbc1583c4964e89903314ebceec30\">Create a new launch installation and select the \"unobfuscated 1.21.11 Pre-Release 3_unobfuscated\" version</li>\n<li data-list-item-id=\"e8107e0e37efc1805c822151d43759e8b\">Start the game and the remaining files will be downloaded</li>\n</ul><p>An unobfuscated server jar can be found here:</p><ul><li data-list-item-id=\"e3bd100cef8d8994dc51399d9f134c3a6\"><a href=\"https://piston-data.mojang.com/v1/objects/880c7007f5456c9bb30e170ea982d39df119a095/server.jar\">Unobfuscated server jar</a></li></ul><p>Report bugs here:</p><ul><li data-list-item-id=\"eee4744769be590142b1af8c46b468160\">\n<a href=\"https://bugs.mojang.com/projects/MC/summary\">Minecraft issue tracker</a>!</li></ul><p>Want to give feedback?</p><ul><li data-list-item-id=\"e7ac20426495a7f7cd5ff5349bff97452\">For any feedback and suggestions, head over to the <a href=\"https://feedback.minecraft.net/\">Feedback site</a>. If you're feeling chatty, join us over at the <a href=\"https://discordapp.com/invite/minecraft\">official Minecraft Discord</a>.</li></ul><p> </p><p><br> </p>",
+    "user_segment_ids": []
+  },
+  {
     "id": 41317802954381,
     "url": "https://minecraftfeedback.zendesk.com/api/v2/help_center/en-us/articles/41317802954381.json",
     "html_url": "https://feedback.minecraft.net/hc/en-us/articles/41317802954381-Minecraft-Java-Edition-1-21-11-Pre-Release-2",
