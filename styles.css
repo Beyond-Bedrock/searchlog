@@ -260,6 +260,16 @@ mark {
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+.search-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 15px 0;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+
 .filter-checkbox {
     display: flex;
     align-items: center;
@@ -429,6 +439,7 @@ mark {
     transition: all 0.3s ease;
     border: 1px solid rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(5px);
+    position: relative;
 }
 
 .article:hover {
@@ -486,6 +497,102 @@ mark {
     text-decoration: underline;
 }
 
+.article-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.article-meta-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.5rem;
+}
+
+.article-dates {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.25rem;
+}
+
+.article-dates .date {
+    color: #888;
+    font-size: 0.75rem;
+}
+
+.article-dates .edited {
+    color: #d97706;
+    font-weight: 500;
+    font-size: 0.75rem;
+}
+
+.article-dates .edited.recent {
+    color: #f59e0b;
+    font-weight: 600;
+}
+
+.article-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.badge {
+    display: inline-block;
+    padding: 0.3rem 0.6rem;
+    font-size: 0.65rem;
+    font-weight: 500;
+    border-radius: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    line-height: 1;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    transition: all 0.2s ease;
+}
+
+.badge:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.badge.snapshot {
+    background: rgba(102, 126, 234, 0.6);
+    color: white;
+    border-color: rgba(102, 126, 234, 0.4);
+}
+
+.badge.preview {
+    background: rgba(240, 147, 251, 0.6);
+    color: white;
+    border-color: rgba(240, 147, 251, 0.4);
+}
+
+.badge.hotfix {
+    background: rgba(250, 112, 154, 0.6);
+    color: white;
+    border-color: rgba(250, 112, 154, 0.4);
+}
+
+.badge.java {
+    background: rgba(79, 172, 254, 0.6);
+    color: white;
+    border-color: rgba(79, 172, 254, 0.4);
+}
+
+.badge.bedrock {
+    background: rgba(67, 233, 123, 0.6);
+    color: white;
+    border-color: rgba(67, 233, 123, 0.4);
+}
+
+
 @media (max-width: 768px) {
     .container {
         padding: 1rem;
@@ -517,5 +624,24 @@ mark {
     
     .article {
         padding: 1.25rem;
+    }
+    
+    .article-footer {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.75rem;
+    }
+    
+    .article-meta-bottom {
+        align-items: flex-start;
+        align-self: flex-end;
+    }
+    
+    .article-dates {
+        align-items: flex-start;
+    }
+    
+    .article-badges {
+        justify-content: flex-start;
     }
 }
