@@ -452,7 +452,7 @@ function displayResults(articles, highlightQuery = '', preservePage = false) {
                 </div>
                 <p>${preview}</p>
                 <div class="article-footer">
-                    <a href="${article.html_url}" target="_blank" rel="noopener noreferrer">Read more</a>
+                    <a href="${article.url}" target="_blank" rel="noopener noreferrer">Read more</a>
                     <div class="article-meta-bottom">
                         <div class="article-dates">
                             <span class="date">Created: ${formatDate(article.created_at)}</span>
